@@ -1,0 +1,8 @@
+# Project-specific overrides
+# Exclude build artifacts
+*.map linguist-generated
+*.png binary
+src/**/*.tsx linguist-detectable
+*.min.js linguist-generated
+public/** linguist-vendored
+node_modules/* linguist-vendored
